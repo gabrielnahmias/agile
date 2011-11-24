@@ -1,0 +1,66 @@
+body {
+	
+	margin: 0;
+	
+	-moz-user-select: none;
+	
+	-webkit-user-select: none;
+	
+}
+
+iframe {
+	
+	height:100% !important;
+	
+	width:100% !important;
+	
+	z-index: -1 !important;
+	
+}
+
+div#editor {
+	
+	width:100% !important;
+	
+}
+
+#auto_completion_area {
+	
+	z-index: 1000;
+	
+}
+
+/* ICONS FOR MENUS */
+
+/* File */
+
+.new { background-image: url("../img/icons/page_white.png") !important; }
+.open {	background-image: url("../img/icons/folder_page_white.png") !important; }
+.open_recent { background-image: url("../img/icons/folder_page.png") !important; }
+.close { background-image: url("../img/icons/close.png") !important; }
+.close_all { background-image: url("../img/icons/close_all.png") !important; }
+.save { background-image: url("../img/icons/save.png") !important; }
+.save_all { background-image: url("../img/icons/save_all.png") !important; }
+.exit { background-image: url("../img/icons/door_in.png") !important; }
+
+/* Edit */
+
+.undo {	background-image: url("../img/icons/un.png") !important; }
+.redo { background-image: url("../img/icons/re.png") !important; }
+.cut { background-image: url("../img/icons/cut.png") !important; }
+.copy { background-image: url("../img/icons/copy.png") !important; }
+.paste { background-image: url("../img/icons/page_paste.png") !important; }
+
+.insert { background-image: url("../img/icons/add.png") !important; }
+.color_code { background-image: url("../img/icons/color_swatch.png") !important; }
+
+.prj_settings { background-image: url("../img/icons/wrench.png") !important; }
+.edt_options { background-image: url("../img/icons/table_gear.png") !important; }
+
+/* View */
+
+.syntax { background: url("../img/icons/script_code.png") no-repeat !important; }
+
+/* Help */
+
+.about { background-image: url("../img/icons/information.png") !important ; }
